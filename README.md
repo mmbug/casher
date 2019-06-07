@@ -1,5 +1,9 @@
-**Cashier's Bot** - a Telegram bot-platform for cryptocurrency exchange.
+**CRX24BOT** - a 24/7 cryptocurrency exchange bot.
 
-Written in Ruby Sinatra, this bot platform is highly flexible and scalable.
-Just hit [@Cashier's Bot](http://google.com) on Telegram and create your own bot. 
-Start exchanging the crypto.
+With this bot you can:
+
+- buy/sell Bitcoin and Zold
+- send/receive Bitcoin and Zold transactions
+- earn on referals
+
+Contact us in Telegram @vladimirvitkov 
