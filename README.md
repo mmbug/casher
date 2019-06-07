@@ -6,4 +6,4 @@ With this bot you can:
 - send/receive Bitcoin and Zold transactions
 - earn on referals
 
-Contact us in Telegram @vladimirvitkov 
+Contact us in Telegram (@vladimirvitkov)[http://t.me/vladimirvitkov] 
