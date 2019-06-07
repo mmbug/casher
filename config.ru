@@ -14,28 +14,6 @@ require_rel './app/controllers'
 
 `rake version:bump:revision`
 
-module Tor
-  class HiddenService
-    def hostname
-      "p3ot3xjluikgbyb7.onion"
-    end
-  end
-end
-
-#OpenSSL::PKey::RSA.generate(1024).to_pem
-#File.read("#{ROOT}/tmp/hidden.pem")
-
-if production?
-  if Tor.available?
-    require 'tor/hidden-service'
-    HIDDEN_SERVICE = Tor::HiddenService.new(
-        private_key: File.read("#{ROOT}/tmp/hidden.pem"),
-        server_port: ENV['PORT'] || 5000
-    )
-    HIDDEN_SERVICE.start
-  end
-end
-
 begin
   require 'rack/timeout/base'
   use Rack::Timeout, service_timeout: 24, wait_timeout: 24, wait_overtime: 24
