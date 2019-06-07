@@ -1,4 +1,4 @@
-**CRX24BOT** - a 24/7 cryptocurrency exchange bot.
+**[@CRX24BOT](http://t.me/CRX24BOT)** - a 24/7 cryptocurrency exchange bot.
 
 With this bot you can:
 
