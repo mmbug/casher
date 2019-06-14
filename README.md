@@ -1,9 +1,4 @@
-**[@CRX24BOT](http://t.me/CRX24BOT)** - a 24/7 cryptocurrency exchange bot.
+**TheAutobot** - a Telegram bot-platform for selling goods.
 
-With this bot you can:
-
-- buy/sell Bitcoin and Zold
-- send/receive Bitcoin and Zold transactions
-- earn on referals
-
-Contact us in Telegram [@vladimirvitkov](http://t.me/vladimirvitkov) 
+Written in Ruby Sinatra, this bot platform is highly flexible and scalable.
+Just hit [@TheAutobot](http://google.com) on Telegram and create your own bot. Start selling )

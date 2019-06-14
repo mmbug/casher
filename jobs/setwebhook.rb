@@ -1,17 +1,5 @@
-require_relative './requires'
-logger = CronLogger.new
-DB.logger = logger
-
-hook = ARGV[0]
-bot = ARGV[1]
-
-puts "Bot: #{bot}"
-puts "Setting webhook ... #{hook}"
-b = Bot.find(tele: bot)
-puts "Token: #{b.token}"
-url = hook + b.token.to_s
-puts "Webhook: #{url}"
-from_bot = Telegram::Bot::Api.new(b.token)
-puts "WAS: #{from_bot.getWebhookInfo.inspect}".colorize(:red)
-from_bot.setWebhook(url: url)
-puts "NOW: #{from_bot.getWebhookInfo.inspect}".colorize(:green)
+require 'rubygems'
+require 'telegram/bot'
+hook = 'https://fce5bfa4.ngrok.io/856978609:AAFxVC5RgBIhkEtwaEir7iIA4klHVNhfLYM'
+from_bot = Telegram::Bot::Api.new('856978609:AAFxVC5RgBIhkEtwaEir7iIA4klHVNhfLYM')
+puts from_bot.setWebhook(url: hook)

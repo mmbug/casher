@@ -1,3 +1,2 @@
-class Referal < Sequel::Model(:referal)
-
+class Ad < Sequel::Model(:ad)
 end

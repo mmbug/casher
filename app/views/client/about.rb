@@ -1,7 +1,13 @@
-Nickname *@#{hb_client.username}*
-Balance *UAH 1200.8*
-Referals *12 people*
-Earnings *UAH 121.7*
+*#{BOT_NICKNAME}* это полуавтоматическая система гарантирования сделок в криптовалютах.
 
+Новости в канале @crx24news
+Официальная группа @crx24chat
+Администрация @crx24support
+
+Разрешение споров /disputes
+Соглашение /agreement
+
+О нас в прессе /links
+Официальный сайт [crx24.io](http://crx24.io)
 ****
-[[button('Receive BTC', 'receive_btc', 1), button('Send BTC', 'send_btc', 1)]]
+[[]]

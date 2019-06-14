@@ -2,7 +2,513 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c005cd2b-58ef-4550-94e6-7ea173a7b464" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/casher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/casher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aptfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/commands/client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/commands/client.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/commands/registration.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/commands/registration.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/commands/trade.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/commands/trade.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/commands/welcome.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/commands/welcome.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AdminController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ApplicationController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AuthController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/BotController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UserController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/WallController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tsx/AccountController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tsx/ItemController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tsx/MeineController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tsx/PluginController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tsx/PublicController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tsx/SearchController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tsx/WalletController.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/bitcoin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/cloudinary.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/currency.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/darkside.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/elements.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/exceptions.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/exceptions.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/filter.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/helpers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/helpers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/interpolate.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/roles.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/search.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/btce.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/context.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/exceptions.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/exmo.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/games/announcement.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/games/lottery.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/games/referals.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/games/voting.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/livecoin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/logman.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/nix.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/payload.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/payment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/poll.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/privat.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/reply.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/sess.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/view.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/tsx/webmoney.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/view_helpers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/view_helpers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/abuse.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ad.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ad.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/bet.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/bot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/button.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/campaign.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/chat.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/city.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/client.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/country.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/district.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/easypay.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/escrow.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/exmo.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/game.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/group.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/invoice.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/item.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ledger.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ledger.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/message.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/method.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/mistake.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/operator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/payment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/plugin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/price.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/prox.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/rank.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/rec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ref.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/referal.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/referal.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/request.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/rest.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/seller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/servicewallet.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/sess.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/sess.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/spam.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/stat.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/team.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/trade.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/trade.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/try.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/tsc.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/vars.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/vote.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/wallet.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/warning.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/accounting.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/add_escrow.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/add_items.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/admins.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/batch.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/batchlog.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/blog.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/bots.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/brom.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/buttons.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/chart.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/choose_type.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/client.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/clients.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/cmd.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/codes.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/debts.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/disputes.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/escrow.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/escrows.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/exmo.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/games.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/item.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/item_details.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/item_search.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/items.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/items_operator.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/logs.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/mirrors.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/mistakes.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/no_serp.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/not_permitted.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/overview.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/pay.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/payments.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/plugins.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/prices.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/product_stat.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/rest.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/sales.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/search.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/settings.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/show_rest.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/show_stat.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/stat.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/statement.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/support.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/team.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/transfer_items.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/upload.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/users.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/wallets.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/wallets2.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/warnings.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/zld.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/about.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/about.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/action_canceled.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/action_canceled.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/change_currency.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/change_currency.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/general_settings.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/general_settings.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/menu.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/menu.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/receive_btc.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/receive_btc.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/referal_link.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/referal_link.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/send_btc.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/send_btc.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/settings.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/settings.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/client/trade/choose_seller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/client/trade/choose_seller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/logged.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/not_logged.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/tbr_logged.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/tbr_not_logged.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/tsx.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/ad.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/bene_menu.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/buttons.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/chief_menu.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/choose_single.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/client.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/client_big.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/client_buttons.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/client_tiny.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/dispute_box.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/disputes.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/district_input.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/editable.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/escrow/buttons.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/escrow/chat.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/escrow/escrow.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/escrow/finalized.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/escrow/finished.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/escrow/metadata.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/escrow/pending.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/escrow/rejected.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/escrow/trading.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/footer.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/head.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/logs.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/menu.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/menu_not_logged.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/mess.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/newcomer.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/not_logged_menu.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/not_sold.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/operator_menu.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/prices_input.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/products_input.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/sale.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/search.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/serp.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/stat.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/support_menu.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/tbr_logged_menu.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/tbr_not_logged_menu.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/user_menu.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/404.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/501.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/banned.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/choose_payment.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/denied.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/help.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/login.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/no_bot.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/offer.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/payment.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/recommended.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/register.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/registered.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/search.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/shop-single.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/public/shop.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/serp/serp.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tbr/api_stat.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tbr/index.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tbr/login.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tbr/register.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/account/item_catalog.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/account/my_description.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/account/my_overview.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/account/my_settings.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/account/my_title.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/account/my_trades.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/admin/admin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/admin/botstat.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/admin/debts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/admin/referal_optin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/admin/sales.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/admin/system_accounts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/ads/ask_token.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/ads/welcome.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/deep/welcome.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/errors/internal.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/errors/no_command.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/errors/no_such_view.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/errors/not_authorized.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/info/bots.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/info/welcome.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/item/filter.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/item/item_city.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/item/item_district.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/item/item_overview.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/item/item_product.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/meine/add.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/meine/choose_qnt.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/meine/item_desc.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/meine/item_photo.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/meine/location.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/meine/new_dispute.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/panel/index.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/search/btcu.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/search/confirm.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/search/easy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/search/finalized.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/search/items_products.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/search/serp.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/search/trade.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/tab/created.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/tab/name.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/tab/token.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/tab/welcome.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/bots.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/cashout.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/help.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/jobs.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/lottery.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/newcomer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/not_permitted.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/payments.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/prices.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/referals.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/rules.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/version.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/voting.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tsx/welcome/welcome.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/account.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/advertisement.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/cashout_wex.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/choose_ad.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/create_trade.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/deposit_wex.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/edit_offer.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/offers.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/spam.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/stat.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/statement.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/trade.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user/trades.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/agreement.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/agreement.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/language.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/language.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/welcome.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/welcome.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/b22.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/blog.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/botlogs.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ngrok" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ngrok" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/const.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/const.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/domain.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/escrow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/game_config_example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/poll.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/price_example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/public.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/tsx.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/unicorn.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/add_proxy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/backup_data.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/calc_charts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/calc_one_chart.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/calc_rest.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/check.rb" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/check.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/check_easy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/checkbalances.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/code.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/dd.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/delete_invoices.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/deleteallwebhooks.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/deletewebhoo.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/easypay.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/expire_escrows.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/expire_not_available.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/expire_trades.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/fix_status.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/flush.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/flush_proxies.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/hidden.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/hook.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/ids.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/keepers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/log/newrelic_agent.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/magick.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/payout.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/process_ads.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/process_easy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/prox.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/proxies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/proxylist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/requires.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/resolve_disputes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/revoke_tokens.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/send_messages.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/set_sales.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/setallwebhooks.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/setprices.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/setrep.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/setwebhook-full.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/setwebhook.rb" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/setwebhook.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/token.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/torrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/ukrjobs.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/update_balances.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/update_items.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/update_proxies.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/update_refs.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/verify_payments.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/webhook.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/locales/ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/newrelic_agent.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/newrelic_agent.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newrelic.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.rb" beforeDir="false" afterPath="$PROJECT_DIR$/old.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/11-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/136-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/152-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/164-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/169-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/17-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/170-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/171-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/177-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/192-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/2-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/232-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/237-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/310-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/314-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/35-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/354-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/360-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/37-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/376-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/40-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/6-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/81-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/91-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/base/92-10-2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chartkick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/amg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/237.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/310.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/bart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/cry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/eldo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/enzo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/gold.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/nfs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/roshen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/shishka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/smart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatars/yandex.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bromvalerophenone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/budds.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/budds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/charts/chart2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/darkside.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/dside.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/easy_sample.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/flags/Contact-15384042-attachment-95429511.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/flags/RU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/flags/UA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/legalizer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/GetScript" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/Small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/bitc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/bnk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/bvk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/color-terracota.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/icon-search-toggle-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/illicium_0_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/jquery-2.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/logo-sat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/logo-wm-sat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/mbc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/merchant-small-terracota.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/ppr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/search.box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/user.block.autoload.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/user.block.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/user.block.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/wm-ext-menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/wm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/WebMoney Merchant_files/wm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/advcash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/bitcoin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/btcup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/cash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/easypay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/ecoin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/exmo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/exmo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/livecoin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/livecoin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/nix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/qiwi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/tokenbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/webmoney.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments/wex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/screen1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/screen2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shmale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/smart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/stuff/amfetamin1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/stuff/budds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/stuff/pills.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tab-hor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tabinc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/telebot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/telegram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tsx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tsx.sketchpad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/uploads/klad1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ymr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ymr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/hidden.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tor_57449/data/lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tor_57449/data/state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tor_57449/hidden_service/hostname" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tor_57449/hidden_service/private_key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tor_57449/torrc" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,34 +517,117 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="34" selection-start-column="34" selection-end-column="34" />
-              </first_editor>
-              <second_editor />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/client.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/config/config.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.ru">
+        <entry file="file://$PROJECT_DIR$/app/commands/registration.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/commands/welcome.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/commands/trade.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/client/menu.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="74" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/const.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/commands/client.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/lib/helpers.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/client/trade/choose_seller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bot</find>
+      <find>title</find>
+      <find>amo</find>
+      <find>def amo</find>
+      <find>buy or</find>
+      <find>reply_logo</find>
+      <find>reply_sim</find>
+      <find>Zold</find>
+      <find>refe</find>
+      <find>refer</find>
+      <find>hb_cli</find>
+      <find>has_</find>
+      <find>reply_in</find>
+      <find>share</find>
+      <find>russi</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,22 +635,69 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/jobs/setwebhook.rb" />
+        <option value="$PROJECT_DIR$/app/lib/tsx/context.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tsx/SearchController.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/BotController.rb" />
+        <option value="$PROJECT_DIR$/app/views/tsx/welcome/welcome.rb" />
+        <option value="$PROJECT_DIR$/app/lib/tsx/reply.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome.rb" />
+        <option value="$PROJECT_DIR$/locales/en.yml" />
+        <option value="$PROJECT_DIR$/app/lib/commands.rb" />
+        <option value="$PROJECT_DIR$/config.ru" />
+        <option value="$PROJECT_DIR$/app/views/client/welcome.rb" />
+        <option value="$PROJECT_DIR$/app/commands/old.rb" />
+        <option value="$PROJECT_DIR$/old.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/language.rb" />
+        <option value="$PROJECT_DIR$/app/views/client/action_canceled.rb" />
+        <option value="$PROJECT_DIR$/app/commands/registration.rb" />
+        <option value="$PROJECT_DIR$/app/lib/exceptions.rb" />
+        <option value="$PROJECT_DIR$/app/lib/view.rb" />
+        <option value="$PROJECT_DIR$/app/lib/view_helpers.rb" />
+        <option value="$PROJECT_DIR$/app/views/client/receive_btc.rb" />
+        <option value="$PROJECT_DIR$/app/models/trade.rb" />
+        <option value="$PROJECT_DIR$/app/views/client/send_btc.rb" />
+        <option value="$PROJECT_DIR$/app/models/referal.rb" />
+        <option value="$PROJECT_DIR$/app/commands/welcome.rb" />
+        <option value="$PROJECT_DIR$/app/lib/context.rb" />
+        <option value="$PROJECT_DIR$/locales/ru.yml" />
+        <option value="$PROJECT_DIR$/app/views/welcome/agreement.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/welcome.rb" />
+        <option value="$PROJECT_DIR$/app/views/client/about.rb" />
+        <option value="$PROJECT_DIR$/app/lib/reply.rb" />
+        <option value="$PROJECT_DIR$/app/commands/client.rb" />
+        <option value="$PROJECT_DIR$/app/views/client/referal_link.rb" />
+        <option value="$PROJECT_DIR$/app/lib/payload.rb" />
+        <option value="$PROJECT_DIR$/app/views/client/change_currency.rb" />
+        <option value="$PROJECT_DIR$/app/views/client/settings.rb" />
+        <option value="$PROJECT_DIR$/app/views/client/general_settings.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/client/menu.rb" />
+        <option value="$PROJECT_DIR$/app/views/sell/choose_sell_adds.rb" />
+        <option value="$PROJECT_DIR$/app/commands/sell.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/CRXController.rb" />
+        <option value="$PROJECT_DIR$/app/models/ad.rb" />
+        <option value="$PROJECT_DIR$/config/config.rb" />
+        <option value="$PROJECT_DIR$/config/const.rb" />
+        <option value="$PROJECT_DIR$/app/models/client.rb" />
+        <option value="$PROJECT_DIR$/app/lib/helpers.rb" />
+        <option value="$PROJECT_DIR$/app/views/client/trade/choose_seller.rb" />
+        <option value="$PROJECT_DIR$/app/commands/trade.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="27" />
-    <option name="width" value="1299" />
-    <option name="height" value="741" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,11 +710,71 @@
               <item name="casher" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="trade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="locales" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casher" type="462c0819:PsiDirectoryNode" />
+              <item name="locales" type="462c0819:PsiDirectoryNode" />
+              <item name="date" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -86,6 +782,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/client/trade" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models" />
+      <recent name="$PROJECT_DIR$/app/commands" />
+      <recent name="$PROJECT_DIR$/app/views/client" />
+      <recent name="$PROJECT_DIR$/app/views/welcome" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,59 +818,335 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559937977172</updated>
-      <workItem from="1559937978630" duration="865000" />
+      <workItem from="1559937978630" duration="3780000" />
+      <workItem from="1560002232705" duration="36409000" />
+      <workItem from="1560432100854" duration="26674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="865000" />
+    <option name="totallyTimeSpent" value="66863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25778133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/BotController.rb" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/tsx/SearchController.rb" />
+    <entry file="file://$PROJECT_DIR$/app/lib/tsx/reply.rb" />
+    <entry file="file://$PROJECT_DIR$/app/views/tsx/welcome/welcome.rb" />
+    <entry file="file://$PROJECT_DIR$/jobs/setwebhook.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locales/date/en.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/commands.rb" />
+    <entry file="file://$PROJECT_DIR$/locales/date/ru.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/method.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/commands/old.rb" />
+    <entry file="file://$PROJECT_DIR$/old.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/language.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/action_canceled.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/exceptions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/input_file.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/view.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/view_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/trade.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/send_btc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="102" selection-start-line="2" selection-start-column="102" selection-end-line="2" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/context.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locales/ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/agreement.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/welcome.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/reply.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/referal_link.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/payload.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/change_currency.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/general_settings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/receive_btc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ledger.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/about.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="87" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/settings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/CRXController.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/referal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ad.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zoldlogger">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="34" selection-start-column="34" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/config/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/commands/registration.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/commands/welcome.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/menu.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/const.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/client/trade/choose_seller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/commands/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/commands/trade.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
