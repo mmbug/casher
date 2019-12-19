@@ -80,7 +80,7 @@ GEM
     pg (1.1.4)
     plist (3.5.0)
     puma (3.12.1)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-protection (2.0.4)
       rack
     rack-timeout (0.5.1)
