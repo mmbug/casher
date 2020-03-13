@@ -1,4 +1,2 @@
-**TheAutobot** - a Telegram bot-platform for selling goods.
-
-Written in Ruby Sinatra, this bot platform is highly flexible and scalable.
-Just hit [@TheAutobot](http://google.com) on Telegram and create your own bot. Start selling )
+@CRX24BOT - a 24/7 cryptocurrency exchange bot.
+This is a cryptoexchange bot for Telegram. This is an open source software. You can fork it and use it if you like.
